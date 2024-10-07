@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chalet en Norvège au bord de l'eau</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="assets/icons8-accueil.svg" alt="logo"/>
+    </div>
+    <h1>GROUNDBNB</h1>
+    <nav>
+        <ul>
+            <li><a href="catégories/catégories.html"> catégories</a></li>
+            <li><a href="villes/emplacements.html">emplacements</a></li>
+            <li><a href="support.html">support</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>Chalet en Norvège du Nord au bord de l'eau</h1>
+<section>
+    <img src="../assets/image chalet norvège/9698aa3e-0d79-459d-89e2-b1507e580f40.webp" height="540"
+         width="720"/>
+    <img src="../assets/image chalet norvège/ce3ddbc5-35a6-432f-8498-36fad0ad6625.webp" height="900"
+         width="1200"/>
+    <img src="../assets/image chalet norvège/d60b3dba-3348-41f2-9872-87ff1e2e8d80.webp" height="540"
+         width="720"/>
+    <img src="../assets/image chalet norvège/dec52bff-b715-4466-9214-3d0a02371d70.webp" height="900"
+         width="1200"/>
+</section>
+<p>Descendre du quotidien ? Découvrez de magnifiques couchers de soleil et soyez de près !
+
+    La cabane se trouve au fond d'une route sans issue, emplacement dégagé avec vue panoramique. Design moderne. Juste
+    vous et la nature. Un point de départ fantastique pour la pêche, le kayak, le sup et la vie de plage.
+
+    Une faune riche, admirez l'aigle de mer qui peut s'envoler lentement.
+
+    Grand jardin avec pelouse, grandes terrasses. Le soleil toute la journée. Bancs et tables pour rassembler tout le
+    monde pour un repas partagé. Four à pizza pour faire des friandises italiennes. Recette que nous sommes heureux de
+    partager avec vous ! : -)
+    Le logement
+    La cabane est rénovée dans un style moderne, salle de bain avec lave-linge et sèche-linge permettant de longs
+    séjours. La pompe à chaleur et le chauffage au bois assurent la chaleur lors des froides soirées d'automne et
+    d'hiver. Cuisine moderne avec tout l'équipement. Vue panoramique avec deux grandes terrasses des deux côtés de la
+    cabane. Grand four à pizza et sièges pour toute la famille. Le jardin avec espace à boulons et à quelques pas de la
+    mer pour de très bonnes possibilités de baignade. Superbe plage de sable. Jardin de cuisine en été qui peut être
+    utilisé.
+
+    Si vous aimez la pêche, il y a à la fois du flétan, de la grosse morue et du lieu noir dans le fjord.</p>
+</body>

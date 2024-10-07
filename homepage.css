@@ -1,0 +1,33 @@
+.logo img {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    text-align: left;
+    color: cornflowerblue;
+}
+
+header li {
+    float: left;
+
+    width: 110px;
+}
+
+.populaires iframe {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
