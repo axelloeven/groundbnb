@@ -1,0 +1,56 @@
+:root {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+}
+
+header svg {
+  width: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  font-size: 1rem;
+}
+
+header h1 {
+  color: var(--couleur-1);
+  font-size: 1.1rem;
+  margin-left: -5px;
+}
+
+header div:first-child {
+  width: 44vw;
+  display: flex;
+  gap: 10px;
+}
+
+#liste-categories {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+#liste-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  list-style-type: none;
+}
+
+#liste-categories img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 20vw;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+}
