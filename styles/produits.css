@@ -32,12 +32,20 @@ header div:first-child {
   gap: 10px;
 }
 
+.name {
+  text-align: center;
+}
 .presentation-text {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 100px;
 }
-
+.images {
+  border: transparent;
+  background-color: var(--couleur-9);
+  border-radius: 20px;
+  padding: 10px;
+}
 .grande-img {
   margin-top: 15px;
   display: flex;
@@ -67,17 +75,16 @@ header div:first-child {
   border-radius: 20px;
 }
 
-.cadre-reserver {
-  display: flex;
-  justify-content: right;
-  margin-top: 50px;
-  margin-right: 200px;
-  margin-left: 1300px;
-  border: solid 4px var(--couleur-1);
+.presentation-text {
+  border: solid 4px var(--couleur-5);
   border-radius: 20px;
-  padding: 24px;
+  padding: 20px;
 }
-
+.cadre-interior {
+  border: solid 4px var(--couleur-5);
+  border-radius: 20px;
+  padding: 20px;
+}
 .cadre-interior h2 {
   font-weight: 600;
   font-size: 2em;
@@ -105,4 +112,37 @@ header div:first-child {
 
 .reserver:hover {
   background-color: var(--couleur-11);
+}
+.ensembles {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caracteristiques-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  border: solid 4px var(--couleur-5);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.apercus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.apercus-grid img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 20vw;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
 }
