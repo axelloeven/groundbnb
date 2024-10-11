@@ -1,0 +1,108 @@
+:root {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+}
+
+header svg {
+  width: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  font-size: 1rem;
+}
+
+header h1 {
+  color: var(--couleur-1);
+  font-size: 1.1rem;
+  margin-left: -5px;
+}
+
+header div:first-child {
+  width: 44vw;
+  display: flex;
+  gap: 10px;
+}
+
+.presentation-text {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.grande-img {
+  margin-top: 15px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.grande-img img {
+  width: 50vw;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.petite-img {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.petite-img img {
+  width: 20vw;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cadre-reserver {
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 1300px;
+  border: solid 4px var(--couleur-1);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.cadre-interior h2 {
+  font-weight: 600;
+  font-size: 2em;
+  color: var(--couleur-5);
+}
+
+.date label {
+  font-weight: 600;
+}
+
+.reserver {
+  background-color: var(--couleur-10);
+  font-weight: 600;
+  border: solid 2px var(--couleur-5);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 75px;
+}
+
+.reserver button {
+  color: white;
+  font-weight: 600;
+}
+
+.reserver:hover {
+  background-color: var(--couleur-11);
+}
