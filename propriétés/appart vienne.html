@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>groundBnB | Locations de vacances entre particuliers</title>
     <link rel="stylesheet" href="/styles/commun.css" />
-    <link rel="stylesheet" href="/styles/homepage.css" />
+    <link rel="stylesheet" href="/styles/produits.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
@@ -38,29 +38,89 @@
         >
       </div>
     </header>
-    <main>
-      <div class="landing">
-        <div class="landing-img">
-          <img src="/assets/image-vacances.png" />
+    <div class="name">
+      <h1>Penthouse/loft en centre-ville de Vienne</h1>
+    </div>
+    <div class="images">
+      <div class="grande-img">
+        <img
+          src="/assets/image appart Vienne/aff713b3-a17e-4477-9871-7deb6321529e.webp"
+        />
+      </div>
+      <div class="petite-img">
+        <img
+          src="/assets/image appart Vienne/6cee49d8-11ff-4ce7-aade-4337b651df5b.webp"
+        />
+        <img
+          src="/assets/image appart Vienne/e23e4067-2735-4b99-83d2-b7b1ebd30895.webp"
+        />
+        <img
+          src="/assets/image appart Vienne/f22e2738-c204-481e-86d3-11608e4cbe2e.webp"
+        />
+      </div>
+    </div>
+    <div class="presentation-text">
+      <h2>
+        Vue ensoleillée et ensoleillée à 360° avec air conditionné au cœur de la
+        Josefstadt dans un ancien bâtiment de rêve. À seulement 6 minutes à pied
+        de la mairie ou du 1er arrondissement et à distance de marche des sites
+        les plus importants.
+      </h2>
+    </div>
+    <div class="ensembles">
+      <div class="cadre-interior">
+        <div class="texte-reserver">
+          <h2>Disponibilités</h2>
+          <h3>Prix à partir de 199€ par nuit</h3>
         </div>
-        <div class="landing-text">
-          <h1>GROUNDBNB, vos vacances encore meilleures</h1>
-          <h2>Avec GROUNDBNB, vivez des éxpériences uniques</h2>
-          <a href="#liste-ville">Découvrir</a>
+        <div class="bouton-date">
+          <div class="date">
+            <label for="date-arrivee">Date d'arrivée :</label>
+            <input type="date" id="date-arrivee" name="date-arrivee" />
+          </div>
+          <div class="reserver">
+            <a
+              href="https://www.airbnb.fr/rooms/26553264?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1304499715&search_mode=flex_destinations_search&check_in=2025-01-02&check_out=2025-01-07&source_impression_id=p3_1728590736_P35ocBLMa-6DTHHp&previous_page_section_name=1001&federated_search_id=199b4506-99d8-4071-8208-f0da219a3c99"
+            >
+              <button type="button">Réserver</button></a
+            >
+          </div>
         </div>
       </div>
+      <div class="caracteristiques">
+        <h2>Caractéristiques</h2>
+        <div class="caracteristiques-grid">
+          <div>
+            <i class="bx bxs-bed">2</i>
+          </div>
+          <div>
+            <i class="bx bxs-bath">1</i>
+          </div>
+          <div>
+            <i class="bx bxs-car">Parking payant</i>
+          </div>
+          <div><i class="bx bx-wifi">Wifi</i></div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d664.6769566284205!2d16.345966969685556!3d48.21224339187952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07ea3885cb11%3A0xd2bd5b654dbdebae!2sFlorianigasse%2049-45%2C%201080%20Wien%2C%20Autriche!5e0!3m2!1sfr!2sfr!4v1728736434496!5m2!1sfr!2sfr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div>
       <div class="apercus">
-        <h2>Biens mis en avant par nos clients :</h2>
+        <h2>Recommandés pour vous</h2>
         <div class="apercus-grid">
           <div>
             <img
               src="assets/image appartement Egypte/image homme regarde les pyramides.jpg"
             />
-            <h3>
-              <a href="/propriétés/hotel vue sur les pyramides de Gizeh.html"
-                >Le Caire</a
-              >
-            </h3>
+            <h3>Le Caire</h3>
             <p>Appartement de 3 pièces</p>
             <p>à partir de 123€/nuit</p>
           </div>
@@ -78,11 +138,7 @@
             <img
               src="assets/image villa desert/Capture d'écran 2024-10-03 224449.png"
             />
-            <h3>
-              <a href="/propriétés/villa en Arabie au milieu du désert.html"
-                >AlUla</a
-              >
-            </h3>
+            <h3>AlUla</h3>
             <p>Suite privée</p>
             <p>à partir de 400€/nuit</p>
           </div>
@@ -90,99 +146,16 @@
             <img
               src="assets/image appart newyork/9ee82f2a-3985-4d93-80e5-59b9a38a6e88.webp"
             />
-            <h3>
-              <a href="/propriétés/appartement dans le centre de NewYork.html">
-                New-York</a
-              >
-            </h3>
+            <h3>New-York</h3>
             <p>Appartement de 6 pièces</p>
             <p>à partir de 700€/nuit</p>
           </div>
         </div>
       </div>
-
-      <div class="villes">
-        <h2>Liste des villes les plus populaires</h2>
-        <div id="liste-ville">
-          <a href="/pages/villes/paris.html">
-            <div class="image-container">
-              <img
-                src="assets/images villes/N2BB4ohwclor2uLoZ7XMHgJmxOZaMOokMdQqqXQAq3s.jpg"
-                height="200"
-              />
-              <div class="hover-text">PARIS</div>
-            </div>
-          </a>
-
-          <a href="/pages/villes/Le_caire">
-            <div class="image-container">
-              <img
-                src="assets/images villes/33941-que-faire-au-caire-en-egypte.jpg"
-                height="200"
-              />
-              <div class="hover-text">LE CAIRE</div>
-            </div>
-          </a>
-
-          <a href="/pages/villes/Oslo.html">
-            <div class="image-container">
-              <img src="assets/images villes/image6.jpg" height="200" />
-              <div class="hover-text">OSLO</div>
-            </div>
-          </a>
-
-          <a href="/pages/villes/AlUla.html">
-            <div class="image-container">
-              <img
-                src="assets/images villes/unesco-designated-hegra-in-alula-as-saudi-arabias-first-world-heritage-site-in-2008.jpg"
-                height="200"
-              />
-              <div class="hover-text">ALULA</div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="categories">
-        <h2>Nos différentes catégories de biens</h2>
-        <div id="liste-categories">
-          <div>
-            <img
-              src="/assets/image maison corée/d0ec6f40-0a67-4374-afb9-ffa6e649db31.webp"
-            />
-            <h3>
-              <a href="/pages/catégories/hors-du-commun.html"
-                >Hors du commun !</a
-              >
-            </h3>
-          </div>
-          <div>
-            <img
-              src="/assets/image villa espagne/04cabaad-4a07-481e-b48a-e5009cb7ab4c.webp"
-            />
-            <h3>
-              <a href="/pages/catégories/maison.html">Nos Maisons</a>
-            </h3>
-          </div>
-          <div>
-            <img
-              src="/assets/chalet colorado/43a0e6a4-744a-40e7-9c5e-c43c8cfb2f52.webp"
-            />
-            <h3><a href="/pages/catégories/chalets.html">Nos chalets</a></h3>
-          </div>
-          <div>
-            <img
-              src="/assets/image appart paris/21e3e4ff-a465-404b-97c3-57afcfeaacb8.webp"
-            />
-            <h3>
-              <a href="/pages/catégories/appartements.html">Nos Appartements</a>
-            </h3>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <p>2024 | groundBnB</p>
-    </footer>
+    </div>
   </body>
+
+  <footer>
+    <p>2024 | groundBnB</p>
+  </footer>
 </html>
