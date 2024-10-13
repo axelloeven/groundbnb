@@ -54,3 +54,47 @@ header div:first-child {
 footer {
   text-align: center;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  :root {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+  }
+
+  header div:first-child {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #liste-categories {
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  #liste-categories img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  #liste-categories {
+    grid-template-columns: 1fr;
+  }
+}

@@ -171,3 +171,54 @@ footer {
     margin-left: 20px;
   }
 }
+
+/* amelioration du reponsive */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header div:first-child {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .landing img {
+    width: 100%;
+    height: auto;
+  }
+
+  .landing-text {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .apercus-grid img,
+  #liste-ville img,
+  #liste-categories img {
+    width: 100%;
+    height: auto;
+  }
+
+  .apercus-grid,
+  #liste-ville,
+  #liste-categories {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 1rem;
+  }
+
+  .landing-text h2 {
+    font-size: 1.5em;
+  }
+
+  .landing-text a {
+    width: 100%;
+    text-align: center;
+  }
+}
